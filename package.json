@@ -1,12 +1,12 @@
 {
   "name": "webflow-to-wordpress",
   "main": "./lib/webflow-to-wordpress",
-  "version": "0.0.0",
-  "description": "A short description of your package",
+  "version": "0.0.2",
+  "description": "Some regexps to convert webflow project to WP",
   "activationCommands": {
     "atom-workspace": "webflow-to-wordpress:process"
   },
-  "repository": "https://github.com/atom/webflow-to-wordpress",
+  "repository": "https://github.com/LuisHerranz/webflow-to-wordpress",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
