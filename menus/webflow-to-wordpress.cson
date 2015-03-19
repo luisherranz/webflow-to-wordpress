@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Process webflow-to-wordpress'
+      'command': 'webflow-to-wordpress:process'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'webflow-to-wordpress'
+      'submenu': [
+        {
+          'label': 'Process'
+          'command': 'webflow-to-wordpress:process'
+        }
+      ]
+    ]
+  }
+]
